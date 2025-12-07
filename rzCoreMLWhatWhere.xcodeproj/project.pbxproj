@@ -3,33 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58610C851F6E98980000E219 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58610C841F6E98950000E219 /* Resnet50.mlmodel */; };
+		58610C851F6E98980000E219 /* Resnet50FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58610C841F6E98950000E219 /* Resnet50FP16.mlmodel */; };
 		586250FA1F6E96E4001FD0A4 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586250F91F6E96E4001FD0A4 /* CoreML.framework */; };
-		58FD23171F79369200F9EA52 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23121F79355400F9EA52 /* GoogLeNetPlaces.mlmodel */; };
-		58FD23181F79369200F9EA52 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23131F7935E600F9EA52 /* Inceptionv3.mlmodel */; };
-		58FD23191F79369200F9EA52 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23141F7935F400F9EA52 /* MobileNet.mlmodel */; };
-		58FD231A1F79369200F9EA52 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23151F79360100F9EA52 /* SqueezeNet.mlmodel */; };
-		58FD231B1F79369200F9EA52 /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23161F79360B00F9EA52 /* VGG16.mlmodel */; };
+		58FD23171F79369200F9EA52 /* FastViTMA36F16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23121F79355400F9EA52 /* FastViTMA36F16.mlpackage */; };
+		58FD23181F79369200F9EA52 /* FastViTT8F16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23131F7935E600F9EA52 /* FastViTT8F16.mlpackage */; };
+		58FD23191F79369200F9EA52 /* MobileNetV2FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23141F7935F400F9EA52 /* MobileNetV2FP16.mlmodel */; };
+		58FD231A1F79369200F9EA52 /* MobileNetV2Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23151F79360100F9EA52 /* MobileNetV2Int8LUT.mlmodel */; };
+		58FD231B1F79369200F9EA52 /* Resnet50Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FD23161F79360B00F9EA52 /* Resnet50Int8LUT.mlmodel */; };
 		7CDDE1C41F119984008EB529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDE1C31F119984008EB529 /* AppDelegate.m */; };
 		7CDDE1C71F119984008EB529 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDE1C61F119984008EB529 /* ViewController.m */; };
 		7CDDE1CA1F119984008EB529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDDE1C81F119984008EB529 /* Main.storyboard */; };
 		7CDDE1CC1F119984008EB529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDDE1CB1F119984008EB529 /* Assets.xcassets */; };
 		7CDDE1CF1F119984008EB529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDDE1CD1F119984008EB529 /* LaunchScreen.storyboard */; };
 		7CDDE1D21F119984008EB529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDE1D11F119984008EB529 /* main.m */; };
+		AABB00112233445500001111 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB00112233445500001112 /* SplashViewController.m */; };
+		AABB00112233445500002222 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB00112233445500002223 /* HelpViewController.m */; };
+		AABB00112233445500003333 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB00112233445500003334 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58610C841F6E98950000E219 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		58610C841F6E98950000E219 /* Resnet50FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50FP16.mlmodel; sourceTree = "<group>"; };
 		586250F91F6E96E4001FD0A4 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
-		58FD23121F79355400F9EA52 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
-		58FD23131F7935E600F9EA52 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
-		58FD23141F7935F400F9EA52 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		58FD23151F79360100F9EA52 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
-		58FD23161F79360B00F9EA52 /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		58FD23121F79355400F9EA52 /* FastViTMA36F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FastViTMA36F16.mlpackage; sourceTree = "<group>"; };
+		58FD23131F7935E600F9EA52 /* FastViTT8F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FastViTT8F16.mlpackage; sourceTree = "<group>"; };
+		58FD23141F7935F400F9EA52 /* MobileNetV2FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2FP16.mlmodel; sourceTree = "<group>"; };
+		58FD23151F79360100F9EA52 /* MobileNetV2Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Int8LUT.mlmodel; sourceTree = "<group>"; };
+		58FD23161F79360B00F9EA52 /* Resnet50Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50Int8LUT.mlmodel; sourceTree = "<group>"; };
 		7CDDE1BF1F119984008EB529 /* rzCoreMLWhatWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rzCoreMLWhatWhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDDE1C21F119984008EB529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CDDE1C31F119984008EB529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +43,12 @@
 		7CDDE1CE1F119984008EB529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CDDE1D01F119984008EB529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CDDE1D11F119984008EB529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABB00112233445500001110 /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		AABB00112233445500001112 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		AABB00112233445500002221 /* HelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		AABB00112233445500002223 /* HelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		AABB00112233445500003332 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AABB00112233445500003334 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +95,18 @@
 				7CDDE1C31F119984008EB529 /* AppDelegate.m */,
 				7CDDE1C51F119984008EB529 /* ViewController.h */,
 				7CDDE1C61F119984008EB529 /* ViewController.m */,
-				58FD23121F79355400F9EA52 /* GoogLeNetPlaces.mlmodel */,
-				58FD23131F7935E600F9EA52 /* Inceptionv3.mlmodel */,
-				58FD23141F7935F400F9EA52 /* MobileNet.mlmodel */,
-				58610C841F6E98950000E219 /* Resnet50.mlmodel */,
-				58FD23151F79360100F9EA52 /* SqueezeNet.mlmodel */,
-				58FD23161F79360B00F9EA52 /* VGG16.mlmodel */,
+				AABB00112233445500001110 /* SplashViewController.h */,
+				AABB00112233445500001112 /* SplashViewController.m */,
+				AABB00112233445500002221 /* HelpViewController.h */,
+				AABB00112233445500002223 /* HelpViewController.m */,
+				AABB00112233445500003332 /* AboutViewController.h */,
+				AABB00112233445500003334 /* AboutViewController.m */,
+				58FD23121F79355400F9EA52 /* FastViTMA36F16.mlpackage */,
+				58FD23131F7935E600F9EA52 /* FastViTT8F16.mlpackage */,
+				58FD23141F7935F400F9EA52 /* MobileNetV2FP16.mlmodel */,
+				58FD23151F79360100F9EA52 /* MobileNetV2Int8LUT.mlmodel */,
+				58610C841F6E98950000E219 /* Resnet50FP16.mlmodel */,
+				58FD23161F79360B00F9EA52 /* Resnet50Int8LUT.mlmodel */,
 				7CDDE1C81F119984008EB529 /* Main.storyboard */,
 				7CDDE1CB1F119984008EB529 /* Assets.xcassets */,
 				7CDDE1CD1F119984008EB529 /* LaunchScreen.storyboard */,
@@ -127,7 +142,8 @@
 		7CDDE1B71F119984008EB529 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
 				ORGANIZATIONNAME = "Robert Zimmelman";
 				TargetAttributes = {
 					7CDDE1BE1F119984008EB529 = {
@@ -171,15 +187,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FD23171F79369200F9EA52 /* GoogLeNetPlaces.mlmodel in Sources */,
-				58FD23181F79369200F9EA52 /* Inceptionv3.mlmodel in Sources */,
-				58FD23191F79369200F9EA52 /* MobileNet.mlmodel in Sources */,
-				58FD231A1F79369200F9EA52 /* SqueezeNet.mlmodel in Sources */,
-				58FD231B1F79369200F9EA52 /* VGG16.mlmodel in Sources */,
-				58610C851F6E98980000E219 /* Resnet50.mlmodel in Sources */,
+				58FD23171F79369200F9EA52 /* FastViTMA36F16.mlpackage in Sources */,
+				58FD23181F79369200F9EA52 /* FastViTT8F16.mlpackage in Sources */,
+				58FD23191F79369200F9EA52 /* MobileNetV2FP16.mlmodel in Sources */,
+				58FD231A1F79369200F9EA52 /* MobileNetV2Int8LUT.mlmodel in Sources */,
+				58FD231B1F79369200F9EA52 /* Resnet50Int8LUT.mlmodel in Sources */,
+				58610C851F6E98980000E219 /* Resnet50FP16.mlmodel in Sources */,
 				7CDDE1C71F119984008EB529 /* ViewController.m in Sources */,
 				7CDDE1D21F119984008EB529 /* main.m in Sources */,
 				7CDDE1C41F119984008EB529 /* AppDelegate.m in Sources */,
+				AABB00112233445500001111 /* SplashViewController.m in Sources */,
+				AABB00112233445500002222 /* HelpViewController.m in Sources */,
+				AABB00112233445500003333 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +228,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +250,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -239,8 +260,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8RV36K5JJ4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -255,10 +278,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Debug;
 		};
@@ -266,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -287,6 +312,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,8 +322,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8RV36K5JJ4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -306,9 +334,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -317,9 +346,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8RV36K5JJ4;
 				INFOPLIST_FILE = "$(SRCROOT)/rzCoreMLWhatWhere/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_CFBundleDisplayName = "Local AI Brilliance!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.zimmelman.whatwhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,9 +364,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8RV36K5JJ4;
 				INFOPLIST_FILE = "$(SRCROOT)/rzCoreMLWhatWhere/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_CFBundleDisplayName = "Local AI Brilliance!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.zimmelman.whatwhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
